@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table cretion</title>
+</head>
+<body style="background-color:hsl(0, 100%, 100%);text-align: center;">
+    <h1 style="text-align: center;color: rgb(255, 5, 17);"><ins>STUDENT INFORMATION TABLE</ins></h1> <br><br>
+        
+
+<form action="submit.html">
+    <table border="6" style="font-size: large; ; background-color: lightyellow; margin-left: auto; margin-right: auto;">
+        <tr>
+            <td>FIRST NAME:</td>
+            <td><input type="text" name="first name" id="fname" placeholder="Enter your first name" required=""></td>
+        </tr>
+        <tr>
+            <td>LAST NAME:</td>
+            <td><input type="text" name="last name "id="lname" placeholder="Enter your last name" required=""></td>
+        </tr>
+        <tr>
+            <td>AGE:</td>
+            <td><input type="number" name="age" id="age" placeholder="Enter your age"  required=""></td>
+        </tr>
+        <tr>
+            <td>EMAIL:</td>
+            <td><input type="email" name="email" id="email" placeholder="Enter your gmail" required=""></td>
+        </tr>
+        <tr>
+            <td>PASSWORD:</td>
+            <td><input type="password" name="password" id="password" placeholder="Enter your password" required=""></td>
+        </tr>
+        <tr>
+            <td>PHONE NUMBER:</td>
+            <td><input type="tel" name="phone number" id="phonenumber" placeholder="Enter your phone number" required=""></td>
+        </tr>
+        <tr>
+            <td>DATE OF BIRTH:</td>
+            <td><input type="date" name="date of birth" id="dob" placeholder="Enter your date of birth" required=""></td>
+        </tr>
+        <tr></tr>
+            <td>DISTRICT:</td>
+            <td>
+                <select name="district" id="district">
+                    <option value="choose your district">Choose your district</option>
+                    <option value="madurai">MADURAI</option>
+                    <option value="ramnad">RAMNAD</option>
+                    <option value="viruthunagar">VIRUDHUNAGAR</option>
+                    <option value="karur">KARUR</option>
+                    <option value="dindigul">DINDIGUL</option> 
+                    <option value="kovai">KOVAI</option>
+                    <option value="sivaganga">SIVAGANGA</option>
+                    <option value="selam">SELAM</option>
+
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>HOBBY:</td>
+            <td required="">
+                <input type="checkbox" name="hobby" value="reading">Reading
+                <input type="checkbox" name="hobby" value="writing">Writing
+                <input type="checkbox" name="hobby" value="Sports">Sports
+            </td>
+        </tr>
+        <tr>
+            <td>12<sup>th</sup> PASS OR FAIL:</td>
+            <td required="">
+                <input type="radio" name="result" value="pass">Pass
+                <input type="radio" name="result" value="fail">Fail
+            </td>
+           
+
+        <tr style="background-color:red ;"><b>
+            <td><input type="submit" value="submit"></td>
+            <td><input type="reset" value="reset"></td>
+        </tr></b>
+    </table>
+</form>
+</body>
+</html>

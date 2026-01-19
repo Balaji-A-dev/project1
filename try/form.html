@@ -1,0 +1,69 @@
+<html>
+<head>
+    <title>Form Example</title>
+</head>
+<body style="background-color:lab(99.85% -0.85 1.3); text-align:center;">
+    <h1 style="color: #dc143c;"><ins>LOGIN FORM</ins></h1> <br><br>
+
+ <form action="http://127.0.0.1:5500/projects.html/submit.html" style="font-style:oblique;">
+     <label for="firstname" style="color: rgb(24, 23, 23);"><b>First name:</b></label>
+         <input type="text" id="firstname" name="firstname" placeholder="Enter your first name" style="background-color: yellow;"><br><br><br>
+     <label for="lastname" style="color: rgb(19, 1, 1);"><b>Last name:</b></label>
+         <input type="text" id="lastname" name="lastname" placeholder="Enter your last name"  style="background-color: #ffff00;"><br><br><br>
+     <label for="email" style="color: rgb(6, 0, 0);"><b>Email:</b></label>
+         <input type="email" id="email" name="email" placeholder="Enter your email"  style="background-color: #ffff00;"><br><br><br>   
+     <label for="password" style="color: rgb(9, 9, 9);"><b>Password:</b></label>
+         <input type="password" id="password" name="password" placeholder="Enter your password" style="background-color: #ffff00;"> <br><br><br>   
+     <label for="date" style="color: rgb(11, 0, 0);"><b>Date of birth:</b></label>
+         <input type="date" id="date" name="date" style="background-color: #ffff00;"><br><br><br>
+     <label for="tel" style="color: rgb(8, 8, 8);"><b>Phone number:</b></label>
+         <input type="tel" id="tel" name="tel" placeholder="Enter your phone number" style="background-color: #ffff00;"><br><br><br>
+     <label for="number" style="color: rgb(18, 0, 0);"><b>Enter a number:</b></label>
+         <input type="number" id="number" name="number" placeholder="Enter a number" style="background-color: #ffff00;"><br><br><br>
+     <label for="my file"><b>Select a file:</b></label>
+         <input type="file" id="myfile" name="myfile" style="background-color: #ffff00;"><br><br><br>
+
+       
+  
+</table>
+    <label style="color:red;font-size:larger;font-weight: 900;"><b><ins>choose your hobby</ins></b></label> <br>
+        <input type="checkbox" id="reading" name="hobby" value="reading">
+     <label for="reading" style="color: rgb(5, 3, 87);"> Reading</label><br>
+        <input type="checkbox" id="traveling" name="hobby" value="traveling">
+     <label for="traveling" style="color: rgb(13, 2, 93);"> Traveling</label><br>
+        <input type="checkbox" id="gaming" name="hobby" value="gaming"> 
+     <label for="gaming" style="color: rgb(11, 4, 116);"> Gaming</label><br> <br>
+
+     <label style="color: #dc143c;font-size: larger;font-weight: bolder;"><b><ins>12<sup>th</sup> pass or fail:</ins></b></label> <br>
+        <input type="radio" name="result" value="pass"> Pass<br>
+     <input type="radio" name="result" value="fail"> Fail<br> <br><br>
+
+    
+        <label>Choose your district</label>
+        <select> <b>
+            <b><option value="choose your district" ><b>choose your district</b></option>
+            <option value="madurai">MADURAI 222</option>
+            <option value="ramnad">RAMNAD</option>
+            <option value="viruthunagar">VIRUDHUNAGAR</option>
+            <option value="karur">KARUR</option>
+            <option value="dindigul">DINDIGUL</option> 
+            <option value="kovai">KOVAI</option>
+            <option value="sivaganga">SIVAGANGA</option>
+            <option value="selam">SELAM</option></b></b>
+
+        </select> <br><br><br>
+
+<texttarea>
+    <label for="address" style="color: rgb(10, 0, 0);font-style: inherit;color: #dc143c;" > <b><ins>Extra activities type hear</ins></b></label><br>
+    <textarea id="address" name="address" rows="4" cols="50" placeholder="typ hear..." style="background-color: #ffff00;"></textarea><br><br>
+    <label style="font-weight: lighter;"><b>Give the rating </b></label>
+    <input type="range" id="vol" name="vol" min="0" max="100" style="background-color: #ffff00;"><br><br><br>
+
+
+        
+        <input type="submit" value="Submit" style="background-color: rgb(138, 252, 138);"> 
+        <input type="reset" value="clear" style="background-color: rgb(139, 240, 139);"> 
+
+ </form>
+</body>  
+</html>
